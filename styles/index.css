@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.navbar {
+  background-color: #e5d2f0;
+}
+
+/* Contacts */
+.col {
+  margin-bottom: 1em;
+  border: 2px solid black;
+  border-radius: 15px;
+  height: 2.5em;
+  background-color: #b576d9;
+}
+
+.container {
+  margin-top: 1.5em;
+}
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+}
+
+.social i {
+  margin-right: 1em;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
