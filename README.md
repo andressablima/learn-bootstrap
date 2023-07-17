@@ -1,5 +1,5 @@
 # learn-bootstrap
-Projeto para display de diferentes layouts, grid, cards e outros tópicos de Bootstrap.
+Projeto para fixação de Bootstrap, trazendo para a criação de um site portfolio próprio.
 
 ## Table of contents
 
