@@ -4,23 +4,72 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
-.navbar {
-  background-color: #fbfbfc;
-  color: #b576d9;
+
+.bg-dark-color {
+  background-color: #050505;
 }
 
-.navbar h3 {
+.primary-color {
+  color: #050505;
 }
+
+.secondary-color {
+  color: #7a7a7a;
+}
+
+/* Projetos Card */
+#proj-img {
+  margin-top: 2em;
+}
+#proj-img .banner-content {
+  opacity: 0.9;
+}
+
+#proj-img .col-md-4 {
+  position: relative;
+  cursor: pointer;
+}
+
+#proj-img .col-md-4:hover > .banner-content {
+  opacity: 0.1;
+}
+
+#proj-container .banner-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0.6;
+  transition: 0.5s;
+}
+.a-proj {
+  text-decoration: none;
+}
+@media (min-width: 768px) {
+  #proj-img .banner-content {
+    opacity: 0.8;
+  }
+  .img-thumbnail {
+    border-radius: 10px;
+  }
+}
+
 /* Contacts */
 .col {
   margin: 1em 2em;
   border: 2px solid black;
   border-radius: 15px;
   height: 2.5em;
-  background-color: #b576d9;
+  transition: 0.3;
 }
 .col:hover {
-  background-color: #e9c8fc;
+  background-color: #b576d9;
 }
 .container {
   margin-top: 1.5em;
@@ -38,28 +87,43 @@
   color: #fff;
 }
 
-a {
+.contact {
   text-decoration: none;
   color: #fff;
   cursor: pointer;
 }
+.col-title {
+  text-decoration: underline;
+}
 
 @media (min-width: 768px) {
-  .carousel-item img {
-    height: 80vh;
-  }
   .col {
-    margin: 1em 8em;
+    margin: 1em 3em;
+    width: 20vw;
+  }
+  .col-title {
+    display: none;
+  }
+  .info-cont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
   }
 }
 
 /* Footer */
 footer {
-  background-color: #fbfbfc;
-  color: #b576d9;
+  color: #fff;
   margin-top: 2em;
+  height: 2.5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.title p {
-  font-size: 12px;
+.sub-title {
+  margin-top: 5px;
+  font-size: 14px;
 }
