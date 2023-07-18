@@ -5,18 +5,23 @@
   font-family: "Roboto", sans-serif;
 }
 .navbar {
-  background-color: #e5d2f0;
+  background-color: #fbfbfc;
+  color: #b576d9;
 }
 
+.navbar h3 {
+}
 /* Contacts */
 .col {
-  margin-bottom: 1em;
+  margin: 1em 2em;
   border: 2px solid black;
   border-radius: 15px;
   height: 2.5em;
   background-color: #b576d9;
 }
-
+.col:hover {
+  background-color: #e9c8fc;
+}
 .container {
   margin-top: 1.5em;
 }
@@ -36,4 +41,25 @@
 a {
   text-decoration: none;
   color: #fff;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .carousel-item img {
+    height: 80vh;
+  }
+  .col {
+    margin: 1em 8em;
+  }
+}
+
+/* Footer */
+footer {
+  background-color: #fbfbfc;
+  color: #b576d9;
+  margin-top: 2em;
+}
+
+.title p {
+  font-size: 12px;
 }
